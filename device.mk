@@ -43,6 +43,15 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 2340
 TARGET_SCREEN_WIDTH := 1080
 
+# Input
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/idc/fts_ts.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/fts_ts.idc \
+    $(LOCAL_PATH)/idc/fts_ts2.idc:$(TARGET_COPY_OUT_SYSTEM)/usr/idc/fts_ts2.idc \
+    $(LOCAL_PATH)/keychars/fts_ts.kcm:$(TARGET_COPY_OUT_SYSTEM)/usr/keychars/fts_ts.kcm \
+    $(LOCAL_PATH)/keylayout/fts_ts2.kl:system/usr/keychars/fts_ts2.kl \
+    $(LOCAL_PATH)/keylayout/fts_ts.kl:system/usr/keylayout/fts_ts.kl \
+    $(LOCAL_PATH)/keylayout/i-rocks_Bluetooth_Keyboard.kl:system/usr/keylayout/i-rocks_Bluetooth_Keyboard.kl
+
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Inherit from asus sm8350-common
