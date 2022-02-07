@@ -1,0 +1,6 @@
+# Asus build
+ro.vendor.build.asus.number=18.0830.2101.73-0
+ro.vendor.build.asus.sku=WW
+ro.vendor.build.asus.version=18.0830.2101.73
+ro.vendor.build.fota.version=WW_I005D-18.0830.2101.73-0
+ro.vendor.build.software.version=18_0830_2101_73
